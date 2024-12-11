@@ -1,27 +1,19 @@
-# SFML-Box2D-CodeBlocks-Project
+## Shadows of Laenor 1.0 ##
 
-Este repositorio contiene un proyecto base de SFML y Box2D configurado específicamente para Code::Blocks. Su objetivo es simplificar el proceso de instalación y configuración de SFML y Box2D para quienes están comenzando en el desarrollo de videojuegos. Este proyecto fue desarrollado en colaboración con la Universidad Tecnológica Nacional, Facultad Regional General Pacheco (UTN FRGP).
+Finalizado el 5 de Noviembre de 2024
 
-## Requisitos
+Shadows of Laenor es un juego de rol (RPG) inspirado en la temática oscura y desafiante de Dark Souls. Este proyecto fue desarrollado como trabajo final para la asignatura Programación II, donde se buscó implementar conceptos avanzados de programación y diseño de juegos. El enfoque estuvo en crear un sistema funcional y desafiante, aplicando conocimientos en programación orientada a objetos, manejo de eventos y simulación de física.
 
-Para trabajar con este proyecto, necesitarás el siguiente compilador de 64 bits:
+El juego presenta un mundo sombrío en el que los jugadores deben enfrentarse a diversos enemigos y jefes, utilizando mecánicas de combate y exploración. Además, el desarrollo incluyó la integración de herramientas como SFML para los gráficos y Box2D para las colisiones, destacando la aplicación práctica de estos recursos en el contexto de un proyecto académico.
 
-- **MinGW-w64** (64 bits): [Descargar aquí](https://github.com/brechtsanders/winlibs_mingw/releases/download/13.1.0-16.0.5-11.0.0-msvcrt-r5/winlibs-x86_64-posix-seh-gcc-13.1.0-mingw-w64msvcrt-11.0.0-r5.7z)
+Desarrollo
 
-## Configuración del Compilador
+El desarrollo de Shadows of Laenor fue un desafío que permitió aplicar temas aprendidos durante el curso, como:
 
-1. **Descomprime** el archivo descargado en una ubicación de tu elección.
-2. Abre Code::Blocks y ve a `Settings` > `Compiler`.
-3. En la pestaña de `Toolchain executables`, selecciona la carpeta `mingw64` donde hayas descomprimido el compilador.
+Programación orientada a objetos: Diseño modular para facilitar la organización y mantenimiento del código.
 
-### Dependencias
+Sistemas de eventos: Manejo eficiente de interacciones del jugador y enemigos.
 
-1. **SFML 2.6.1**
-2. **Box2D 2.4.2**: Puedes obtener Box2D desde su [repositorio de GitHub](https://github.com/erfanoabdi/Box2D).
+Simulación de física: Implementación de colisiones y dinámica de objetos con Box2D.
 
-## Cómo Ejecutar el Proyecto
-
-1. Abre el proyecto en Code::Blocks.
-2. Compila y ejecuta el proyecto.
-
-¡A programar!
+![Uploading 43.png…]()
