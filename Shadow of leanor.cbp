@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Shadow of leanor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SFML-CodeBlocks-Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="src" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SFML-CodeBlocks-Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="src" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="SFML-2.6.1/include" />
+			<Add directory="box2d-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-network" />
+			<Add library="box2d" />
+			<Add directory="SFML-2.6.1/lib" />
+			<Add directory="box2d-2.4.2/lib" />
+		</Linker>
+		<Unit filename="include/Boss.h" />
+		<Unit filename="include/Creditos.h" />
+		<Unit filename="include/DialogManager.h" />
+		<Unit filename="include/GlobalContactListener.h" />
+		<Unit filename="include/HealthBar.h" />
+		<Unit filename="include/HealthBarBoss.h" />
+		<Unit filename="include/Hud.h" />
+		<Unit filename="include/Item.h" />
+		<Unit filename="include/ItemRenderer.h" />
+		<Unit filename="include/Jugador.h" />
+		<Unit filename="include/Kaldrax.h" />
+		<Unit filename="include/Klosterian.h" />
+		<Unit filename="include/Maliketh.h" />
+		<Unit filename="include/Nivel.h" />
+		<Unit filename="include/Physics.h" />
+		<Unit filename="include/Radahn.h" />
+		<Unit filename="include/Skeleton.h" />
+		<Unit filename="include/UserData.h" />
+		<Unit filename="include/Zorathar.h" />
+		<Unit filename="include/finJuego.h" />
+		<Unit filename="include/menu.h" />
+		<Unit filename="include/muerte.h" />
+		<Unit filename="include/pausa.h" />
+		<Unit filename="src/Boss.cpp" />
+		<Unit filename="src/Creditos.cpp" />
+		<Unit filename="src/DialogManager.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Game.h" />
+		<Unit filename="src/GlobalContactListener.cpp" />
+		<Unit filename="src/HealthBar.cpp" />
+		<Unit filename="src/HealthBarBoss.cpp" />
+		<Unit filename="src/Hud.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/ItemRenderer.cpp" />
+		<Unit filename="src/Jugador.cpp" />
+		<Unit filename="src/Kaldrax.cpp" />
+		<Unit filename="src/Klosterian.cpp" />
+		<Unit filename="src/Maliketh.cpp" />
+		<Unit filename="src/Nivel.cpp" />
+		<Unit filename="src/Physics.cpp" />
+		<Unit filename="src/Radahn.cpp" />
+		<Unit filename="src/Skeleton.cpp" />
+		<Unit filename="src/Zorathar.cpp" />
+		<Unit filename="src/finJuego.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/menu.cpp" />
+		<Unit filename="src/muerte.cpp" />
+		<Unit filename="src/pausa.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
