@@ -16,4 +16,5 @@ Sistemas de eventos: Manejo eficiente de interacciones del jugador y enemigos.
 
 Simulación de física: Implementación de colisiones y dinámica de objetos con Box2D.
 
-![Uploading 43.png…]()
+
+![43](https://github.com/user-attachments/assets/23f45ca7-1922-482e-b2c5-c2e41addc071)
